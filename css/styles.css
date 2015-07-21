@@ -1,0 +1,20 @@
+body {
+	background-color: #666666;
+}
+section > h2 {
+	text-align: center;
+}
+h2 {
+	margin: 4rem auto 1rem auto;
+	font-size: 28px;
+	color: white;
+	font-family: 'Slabo 27px', serif; 
+}
+.container {
+	width:25rem;
+	height: 40rem;
+	margin: 1rem auto;
+	border-radius: 8px;
+	background-color: #006666;
+}
+
