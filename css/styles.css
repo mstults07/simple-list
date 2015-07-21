@@ -6,7 +6,7 @@ section > h2 {
 }
 h2 {
 	margin: 4rem auto 1rem auto;
-	font-size: 28px;
+	font-size: 36px;
 	color: #03899c;
 	font-family: 'Slabo 27px', serif;
 	font-weight: bold;
@@ -22,7 +22,7 @@ input {
 	margin-top: 1rem;
 	margin-left: 25%;
 }
-p {
+.active {
 	vertical-align: middle;
 	margin: 1rem 10%;
 	padding: 10px;
@@ -37,6 +37,14 @@ p {
 	height: 22px;
 	width: 22px;
 }
+.check {
+	vertical-align: middle;
+	background-image: url('../images/checkmark.png');
+	float: left;
+	margin-right: 10px;
+	height: 22px;
+	width: 22px;
+}
 .delete {
 	vertical-align: middle;
 	background-image: url('../images/x-delete.png');
@@ -44,6 +52,21 @@ p {
 	height: 22px;
 	width: 22px;
 }
+.delete-2 {
+	vertical-align: middle;
+	background-image: url('../images/blue-delete.png');
+	float: right;
+	height: 22px;
+	width: 22px;
+}
+.complete {
+	color: #efefef;
+	vertical-align: middle;
+	margin: 1rem 10%;
+	padding: 10px;
+	background-color: #666666;
+	border-radius: 10px;
+	text-decoration: line-through;
 
 
 
