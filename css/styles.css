@@ -18,6 +18,13 @@ h2 {
 	border-radius: 8px;
 	background-color: #03899c;
 }
+#container {
+	position: relative;
+}
+.items p{
+	font-family: helvetica, sans-serif;
+	font-size: 16px;
+}
 input {
 	margin-top: 1rem;
 	margin-left: 25%;
@@ -67,6 +74,33 @@ input {
 	background-color: #666666;
 	border-radius: 10px;
 	text-decoration: line-through;
+}
+#container .reset{
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+}
+.reset {
+	margin: 1rem 10%;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #efefef;
+	border-radius: 10px;
+	color: #03899c;
+	font-weight: bold;
+}
 
+@media only screen and (max-width: 490px){
+	.container {
+		width: 90%;
+		height: 35rem;
+	}
+	h2 {
+		margin-top: 1rem;
+	}
+	input {
+		margin-left: 15%;
+	}
 
+}
 

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Simple List</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -13,7 +14,7 @@
 <body>
 <section>
 	<h2>Simple List</h2>
-	<div class="container">
+	<div class="container" id="container">
 		<input type="text" name="input" value="Type here">
 		<div class="items">
 			<p class="active"><span class="open"></span>Item 1<span class="delete"></span></p>
@@ -21,6 +22,8 @@
 			<p class="active"><span class="open"></span>Item 3<span class="delete"></span></p>
 			<p class="complete"><span class="check"></span>Item 3<span class="delete-2"></span></p>
 			<p class="complete"><span class="check"></span>Item 3<span class="delete-2"></span></p>
+	</div>
+	<div class="reset">Reset
 	</div>
 </section>
 </body>
