@@ -21,14 +21,16 @@ h2 {
 #container {
 	position: relative;
 }
-.items p{
+.list-area p{
 	font-family: helvetica, sans-serif;
 	font-size: 16px;
 }
 input {
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 	margin-left: 25%;
 }
+
 .active {
 	vertical-align: middle;
 	margin: 1rem 10%;
@@ -37,6 +39,7 @@ input {
 	border-radius: 10px;
 }
 .open {
+	cursor: pointer;
 	vertical-align: middle;
 	background-image: url('../images/circle.png');
 	float: left;
@@ -45,6 +48,7 @@ input {
 	width: 22px;
 }
 .check {
+	cursor: pointer;
 	vertical-align: middle;
 	background-image: url('../images/checkmark.png');
 	float: left;
@@ -53,6 +57,7 @@ input {
 	width: 22px;
 }
 .delete {
+	cursor: pointer;
 	vertical-align: middle;
 	background-image: url('../images/x-delete.png');
 	float: right;
@@ -60,6 +65,7 @@ input {
 	width: 22px;
 }
 .delete-2 {
+	cursor: pointer;
 	vertical-align: middle;
 	background-image: url('../images/blue-delete.png');
 	float: right;
@@ -80,7 +86,8 @@ input {
 	bottom: 0;
 	left: 30%;
 }
-.reset {
+#reset {
+	cursor: pointer;
 	margin: 1rem 10%;
 	padding: 10px 20px;
 	text-align: center;
